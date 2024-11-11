@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Fit House</title>
+    <link rel="icon" href="logo.jpeg">
+    <link rel="stylesheet" href="pm.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <h1>PM Fit House</h1>
+            <p>
+            <ul>
+                <li><a href="#contact-section">Contact Us</a></li>
+            </ul>
+            </p>
+        </nav>
+    </div>
+    <hr>
+    <div>
+        <center>
+            <h1>DON'T QUIT</h1>
+        </center>
+    </div>
+
+    <div class="gallery">
+        <div class="box">
+            <img src="img7.jpg" alt="Image 1">
+        </div>
+        <div class="box">
+            <img src="img6.jpeg" alt="Image 2">
+        </div>
+        <div class="box">
+            <img src="img3.jpeg" alt="Image 3">
+        </div>
+        <div class="box">
+            <img src="img5.jpeg" alt="Image 4">
+        </div>
+    </div>
+    <hr>
+    
+    <div class="subscription">
+        <h1>Subscription Plans</h1>
+        <div class="subscription-plans1">
+            <div class="plan">
+                <h2>3 Months</h2>
+                <p>Get access to all facilities and personalized workout plans.</p>
+                <p><strong>Price:</strong>Rs.5000</p>
+            </div>
+            <div class="plan">
+                <h2>6 Months</h2>
+                <p>Includes 3 personal training sessions and a nutrition guide.</p>
+                <p><strong>Price:</strong>Rs.9000</p>
+            </div>
+        </div>
+        <div class="subscription-plans2">
+            <div class="plan">
+                <h2>1 Year</h2>
+                <p>Includes 10 personal training sessions, a custom diet plan, and exclusive classes.</p>
+                <p><strong>Price:</strong>Rs.16000</p>
+            </div>
+            <div class="plan">
+                <h2>3 Years</h2>
+                <p>All benefits included, plus a dedicated coach and priority booking.</p>
+                <p><strong>Price:</strong>Rs.45000</p>
+            </div>
+            
+        </div>
+        
+            <button class="enroll-button" onclick="document.getElementById('enrollModal').style.display='block'">Enroll</button>
+        
+    </div>
+    <hr>
+    <div class="about">
+        <h1>About Us</h1>
+        <p>PM Fit House is dedicated to providing a high-quality fitness experience with a variety of training programs, from
+        strength and cardio to specialized sessions like HIIT and yoga. Our expert trainers create personalized workout plans
+        tailored to individual goals, ensuring members stay motivated and see progress. We offer flexible membership options,
+        including 3-month, 6-month, 1-year, and 3-year plans to suit every commitment level. With a supportive,
+        community-focused environment, PM Fit House feels like a fitness family. Plus, our commitment to cleanliness and
+        holistic well-being makes it an ideal place for achieving lasting health and fitness.
+        </p>
+        <div class="images">
+                <div class="box">
+                    <img src="img1.jpeg" alt="Image 1">
+                </div>
+                <div class="box">
+                    <img src="img2.jpeg" alt="Image 2">
+                </div>
+                <div class="box">
+                    <img src="img4.jpeg" alt="Image 3">
+                </div>
+        </div>
+
+    </div>
+    <hr>
+    <div id="contact-section" class="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <div class="left">
+                <p><strong>Phone:</strong> +91 1234567890</p>
+                <p><strong>Phone:</strong> +91 9876543210</p>
+                <p><strong>Email:</strong> pmfithouse@example.com</p>
+                <p><strong>Location:</strong> chennai,India</p>
+            </div>
+            <div class="divider"></div>
+            <div class="right">
+                <p><strong>Address:</strong> PM Fit House</p>
+                <p>123 Gym Street,</p>
+                <p>Chennai, Tamilnadu, 600001</p>
+            </div>
+        </div>
+    </div>
+    <div id="enrollModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('enrollModal').style.display='none'">&times;</span>
+            <h2>Enroll Now</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="plan">Plan:</label>
+                <select id="plan" name="plan">
+                    <option value="3 months">3 Months</option>
+                    <option value="6 months">6 Months</option>
+                    <option value="1 year">1 Year</option>
+                    <option value="3 years">3 Years</option>
+                </select>
+    
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    </body>
+    
+    </html>
+
+
+</body>
+
+</html>
